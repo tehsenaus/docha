@@ -34,13 +34,12 @@ describe('Something', function () {
 
 The output ```README.md``` will be:
 
-```
-&#x0023; Something
-&#x0023;&#x0023; some function
- some function does some work
+    # Something
+    ## some function
+     some function does some work
+    
+    ```
+    fn('data').should.equal('result')
+    ```
 
-&#x0060;&#x0060;&#x0060;
-fn('data').should.equal('result')
-&#x0060;&#x0060;&#x0060;
-```
 
