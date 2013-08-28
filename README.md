@@ -42,4 +42,4 @@ The output ```README.md``` will be:
     fn('data').should.equal('result')
     ```
 
-
+For a more fully-fledged example, see: https://github.com/tehsenaus/node-mkenv
