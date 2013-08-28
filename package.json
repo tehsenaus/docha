@@ -1,0 +1,31 @@
+{
+  "name": "docha",
+  "version": "0.1.0",
+  "description": "Generate documentation from your Mocha BDD specs",
+  "main": "lib/docha.js",
+  "bin": {
+    "docha": "./bin/docha"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tehsenaus/docha.git"
+  },
+  "keywords": [
+    "mocha",
+    "documentation",
+    "generator",
+    "bdd"
+  ],
+  "author": "Sean Micklethwaite",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/tehsenaus/docha/issues"
+  },
+  "dependencies": {
+    "glob": "~3.2.6",
+    "string": "~1.5.1"
+  }
+}

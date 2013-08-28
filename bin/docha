@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var docha = require("../lib/docha");
+
+docha({
+	// TODO: options
+}, function (err) {
+	if ( err ) {
+		console.error(err);
+		process.exit(-1);
+	}
+})
