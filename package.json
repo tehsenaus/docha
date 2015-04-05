@@ -27,5 +27,8 @@
   "dependencies": {
     "glob": "~3.2.6",
     "string": "~1.5.1"
+  },
+  "devDependencies": {
+    "commander": "^2.7.1"
   }
 }
