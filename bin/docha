@@ -14,8 +14,6 @@ options.
 	option('-e, --escape <strings>', 'Escape each of these comma-separated strings in descriptions', list, []).
 	parse(process.argv);
 
-  console.log(options.escape);
-
 docha(options,
 function (err) {
 	if ( err ) {
