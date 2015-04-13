@@ -1,6 +1,6 @@
 {
   "name": "docha",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generate documentation from your Mocha BDD specs",
   "main": "lib/docha.js",
   "bin": {
