@@ -25,6 +25,7 @@
     "url": "https://github.com/tehsenaus/docha/issues"
   },
   "dependencies": {
+    "commander": "^2.7.1",
     "glob": "~3.2.6",
     "string": "~1.5.1"
   }

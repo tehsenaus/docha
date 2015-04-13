@@ -1,10 +1,21 @@
 #!/usr/bin/env node
 
 var docha = require("../lib/docha");
+var options = require('commander');
 
-docha({
-	// TODO: options
-}, function (err) {
+function list(val) {
+  return val.split(',');
+}
+
+options.
+	option('-p, --test-path [path]', 'File/directory to document').
+	option('-o, --output [path]', 'File to write to').
+	option('-C, --no-code', 'Do not include code in the generated documentation').
+	option('-e, --escape <strings>', 'Escape each of these comma-separated strings in descriptions', list, []).
+	parse(process.argv);
+
+docha(options,
+function (err) {
 	if ( err ) {
 		console.error(err);
 		process.exit(-1);
