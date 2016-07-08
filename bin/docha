@@ -20,4 +20,8 @@ function (err) {
 		console.error(err);
 		process.exit(-1);
 	}
+	//If the node js project connects to a db, most probably
+	//it has an opened socket which will prevent the script
+	//from ending. So shut everything off!
+	process.exit(0);
 })
