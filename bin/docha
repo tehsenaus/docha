@@ -12,6 +12,7 @@ options.
 	option('-o, --output [path]', 'File to write to').
 	option('-C, --no-code', 'Do not include code in the generated documentation').
 	option('-e, --escape <strings>', 'Escape each of these comma-separated strings in descriptions', list, []).
+	option('-r, --requirements-path [path]', 'File/directory to `require()` before documentation can be created').
 	parse(process.argv);
 
 docha(options,
